@@ -10,7 +10,7 @@ August 2024
 
 In these setup instructions, we build a local cluster using Raspberry Pis. This will allow us to run parallel computing jobs across Raspberry Pis.
 
-Our approach takes inspiration from `Garrett Mills'`' tutorial on [Building a Raspberry Pi Cluster](https://glmdev.medium.com/building-a-raspberry-pi-cluster-784f0df9afbd). We recommend checking out his tutorial for additional explanations and setup instructions. 
+Our approach takes inspiration from Garrett Mills' tutorial on [Building a Raspberry Pi Cluster](https://glmdev.medium.com/building-a-raspberry-pi-cluster-784f0df9afbd). We recommend checking out his tutorial for additional explanations and setup instructions. 
 
 We wanted the ability to automate some of the setup on the Raspberry Pis, so we created bash scripts (see below) that help with configuration and software installation. If you prefer a more manual approach to the setup, you should be able to apply each step within the scripts line by line. See the script comments to identify what each step should accomplish. **Note that we expect some minor changes will be needed depending on the Raspberry Pi and software versions used. Let us know if you run into any issues.**
 
