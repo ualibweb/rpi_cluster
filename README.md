@@ -31,7 +31,7 @@ We wanted the ability to automate some of the setup on the Raspberry Pis, so we 
 7. [Run Python Script with Conda](#run-python-script-with-conda)
 8. [Test all Compute Nodes and CPUs](#test-all-compute-nodes-and-cpus)
 9. [Conclusion](#conclusion)
-10. [Possible Issues](#common-issues)
+10. [Possible Issues](#possible-issues)
 
 ## Prerequisites
 
@@ -637,7 +637,7 @@ You can then submit the job script file to the queue like normal.
 
 ## Test all Compute Nodes and CPUs
 
-We put together a basic example using RDKit (a python cheminformatics library) and MPI for Python. See the `/example` folder in this repository for the code. The `TAN_MPI.py` script computes the tanimoto chemical similarity values between about 80,000 pairs of molecules. The script is adapted from our chemical space network tutorial: https://github.com/vfscalfani/CSN_tutorial. The `times_testing.sh` is a bash script that submits Slurm jobs for all combinations of nodes (1-3) and CPUs per node (1-4) to run the `TAN_MPI.py` calculations. Here are the results below:
+We put together a basic example using RDKit (a python cheminformatics library) and MPI for Python. See the `/example` folder in this repository for the code. The `TAN_MPI.py` script computes the tanimoto chemical similarity values between about 80,000 pairs of molecules. The script is adapted from our chemical space network tutorial: https://github.com/vfscalfani/CSN_tutorial. The `times_testing.sh` is a bash script that submits Slurm jobs for all combinations of nodes (1-3) and CPUs per node (1-4) to run the `TAN_MPI.py` calculations. Here are the results below running the `TAN_MPI.py` script on the Raspberry Pi Cluster with all variations of nodes and available CPUs (4 CPUs per compute node; 3 total compute nodes):
 
 ![Times for chemical similarity](images/times_TAN_MPI_plot.png)
 
