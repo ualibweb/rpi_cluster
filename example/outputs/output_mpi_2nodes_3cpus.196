@@ -1,0 +1,10 @@
+Time to scatter data: 0.3827 seconds
+Rank 1: Average time per calculation: 0.0151 seconds
+Rank 2: Average time per calculation: 0.0162 seconds
+Rank 0: Average time per calculation: 0.0163 seconds
+Rank 5: Average time per calculation: 0.0195 seconds
+Rank 3: Average time per calculation: 0.0201 seconds
+Rank 4: Average time per calculation: 0.0210 seconds
+Time to gather results: 63.7365 seconds
+File saved as: subsets_mcs_multi.pickle
+Total Time: 285.8903 seconds
